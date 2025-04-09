@@ -1,0 +1,9 @@
+{
+	"name": "Mks-Adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "526ba8c8-02a5-47fe-a384-bf5f57349609",
+		"tenantId": "683da67f-88e3-4e02-b89b-b189c668f371"
+	}
+}
