@@ -1,0 +1,22 @@
+{
+	"name": "source_git",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linked_Git",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "Manishkumarsamal-258/Azure-ADF/refs/heads/main/Csv_Dataset/Fact_Sales_2%20(1).csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
