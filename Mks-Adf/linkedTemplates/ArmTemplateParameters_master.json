@@ -8,6 +8,9 @@
 		"linkserviceadf_accountKey": {
 			"value": ""
 		},
+		"linked_Git_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		},
 		"linkserviceadf_properties_typeProperties_url": {
 			"value": "https://mksstorage.dfs.core.windows.net/"
 		},

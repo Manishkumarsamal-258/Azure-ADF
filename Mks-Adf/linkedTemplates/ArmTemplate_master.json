@@ -11,6 +11,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'linkserviceadf'"
 		},
+		"linked_Git_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://raw.githubusercontent.com"
+		},
 		"linkserviceadf_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://mksstorage.dfs.core.windows.net/"
@@ -44,6 +48,9 @@
 					},
 					"linkserviceadf_accountKey": {
 						"value": "[parameters('linkserviceadf_accountKey')]"
+					},
+					"linked_Git_properties_typeProperties_url": {
+						"value": "[parameters('linked_Git_properties_typeProperties_url')]"
 					},
 					"linkserviceadf_properties_typeProperties_url": {
 						"value": "[parameters('linkserviceadf_properties_typeProperties_url')]"
